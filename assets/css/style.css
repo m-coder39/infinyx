@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #1e4f8a;
+  --secondary-color: #2f78c4;
+  --tertiary-color: #33ccff;
+  --bg-color: #0d0d0d;
+  --text-color: #808080;
+}
+.inf-logo {
+  height: 70px;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.navbar-nav .nav-link {
+  color: var(--text-color);
+}
+.navbar-nav .nav-link:active {
+  color: var(--text-color);
+}
+.dropdown,
+.disabled {
+  display: none;
+}
