@@ -49,3 +49,41 @@
   object-fit: cover;
   width: 100%;
 }
+/* our-services */
+.our-services {
+  background-image: url("../images/sky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  color: white;
+}
+.our-services h2 {
+  font-size: 50px;
+}
+
+.our-services img {
+  height: 305px;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.service-box {
+  position: relative;
+}
+.service-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  width: 91%;
+  height: 40%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  transition: 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
