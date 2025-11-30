@@ -111,3 +111,7 @@
   transform: translateY(0);
   transition: 0.4s ease;
 }
+/* news */
+.news .news-main img {
+  height: 100px;
+}
