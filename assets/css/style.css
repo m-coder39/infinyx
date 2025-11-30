@@ -112,6 +112,31 @@
   transition: 0.4s ease;
 }
 /* news */
-.news .news-main img {
-  height: 100px;
+.news {
+  padding: 60px 0;
+  .news-heading {
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .news-main img {
+    height: 100px;
+  }
+  .news-main {
+    border-color: #808080;
+    position: relative;
+  }
+  .news-main-company {
+    font-size: 100px;
+
+    position: absolute;
+    top: 48px;
+    left: 165px;
+  }
+  h3 {
+    margin-top: 25px;
+    color: var(--secondary-color);
+    font-size: 30px;
+  }
 }
