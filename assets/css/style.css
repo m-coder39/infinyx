@@ -114,58 +114,81 @@
 /* news */
 .news {
   padding: 60px 0;
-  .news-heading {
-    color: var(--primary-color);
-  }
-
-  h2 {
-    font-size: 50px;
-  }
-  .news-main img {
-    height: 100px;
-  }
-  .news-main {
-    border-color: #808080;
-    position: relative;
-  }
-  .news-main-company {
-    font-size: 100px;
-
-    position: absolute;
-    top: 48px;
-    left: 165px;
-    color: var(--primary-color);
-  }
-  h3 {
-    margin-top: 25px;
-    color: var(--secondary-color);
-    font-size: 30px;
-  }
-  h3:hover {
-    color: var(--bg-color);
-  }
-  p {
-    color: var(--primary-color);
-  }
-  h4 {
-    color: var(--secondary-color);
-  }
-  h4:hover {
-    color: var(--bg-color);
-  }
-  .custom-btn {
-    color: var(--secondary-color);
-    font-weight: bolder;
-    font-size: 20px;
-  }
-  .custom-btn:hover {
-    color: var(--bg-color);
-  }
 }
-.custom-see-all-btn {
+.news-heading {
+  color: var(--primary-color);
+}
+
+.news h2 {
+  font-size: 50px;
+}
+.news .news-main img {
+  height: 100px;
+}
+.news .news-main {
+  border-color: #808080;
+  position: relative;
+}
+.news .news-main-company {
+  font-size: 100px;
+
+  position: absolute;
+  top: 48px;
+  left: 165px;
+  color: var(--primary-color);
+}
+.news h3 {
+  margin-top: 25px;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+.news h3:hover {
+  color: var(--bg-color);
+}
+.news p {
+  color: var(--primary-color);
+}
+.news h4 {
+  color: var(--secondary-color);
+}
+.news h4:hover {
+  color: var(--bg-color);
+}
+.news .custom-btn {
+  color: var(--secondary-color);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.news .custom-btn:hover {
+  color: var(--bg-color);
+}
+
+.news .custom-see-all-btn {
   color: var(--secondary-color);
   font-weight: bolder;
   font-size: 20px;
   margin: 15px 0;
-  border: #000066 !important;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  padding: 15px;
+}
+/* contact us */
+.contact-us {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 80px 0;
+}
+.contact-us h2 {
+  font-size: 50px;
+}
+.contact-us .custom-submit-btn {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-weight: bolder;
+
+  margin: 15px 0;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  padding: 15px;
 }
