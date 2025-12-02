@@ -199,3 +199,17 @@
   border: none;
   color: var(--primary-color);
 }
+/* footer */
+.footer {
+  padding: 80px 0;
+}
+.footer .company img {
+  width: 15%;
+}
+.footer h2 {
+  font-size: 50px;
+  color: var(--primary-color);
+}
+.footer h2:hover {
+  color: var(--bg-color);
+}
